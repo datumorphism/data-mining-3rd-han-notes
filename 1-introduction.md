@@ -142,3 +142,16 @@ Multidimensional data
 ##### Actionable
 
 ##### Confirmation of Hypothesis
+
+
+## Major Issues in Data Mining
+
+### Mining Methodology
+
+### User Interactions
+
+### Efficiency and Scalability
+
+### Diversity of Data Types
+
+### Data Mining and Society
