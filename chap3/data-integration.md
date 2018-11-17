@@ -147,7 +147,7 @@ we have $\sigma_{A,B} = -1 $. The negative sign tells us that our series is anti
 
 However, we would find that the value of this correlation depends on the values of the standard deviation of each series. We would like to normalize it and define the correlation between the two series,
 $$
-r_{A,B} = \frac{ \sigma_{A,B}  } { \sigma_{A} \sigma_{B} } = \frac{ \sum (a_i - \bar A) (b_i - \bar B) }{ n\sigma_{A} \sigma_{B} }
+r_{A,B} = \frac{ \sigma_{A,B}^2  } { \sigma_{A} \sigma_{B} } = \frac{ \sum (a_i - \bar A) (b_i - \bar B) }{ n\sigma_{A} \sigma_{B} }
 $$
 
 Another way of interpreting it is
@@ -160,7 +160,7 @@ which is some kind of geometric mean of the geometric mean of each series.
 
 Covariance is the correlation coefficient without normalization
 $$
-Cov{A,B} = \sum_{i} ( \text{Sign}(a_i - \bar A) M_{i}^a ) ( \text{Sign}(b_i - \bar B) M_i^b )
+\text{Cov} ({A,B}) = \sum_{i} ( \text{Sign}(a_i - \bar A) M_{i}^a ) ( \text{Sign}(b_i - \bar B) M_i^b )
 $$
 
 Or
