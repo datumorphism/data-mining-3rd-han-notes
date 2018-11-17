@@ -58,7 +58,7 @@ However, those numbers in the table depends on the number of rows that we have i
 Pearson's chi square correlation is a smart idea. We define an expectation table E. Each element of E is calculated as
 
 $$
-e_{ij} = \frac{ \text{# of} a_i \times \text{# of} b_j }{ \text{ total # of rows in original table } }
+e_{ij} = \frac{ \text{number of} a_i * \text{ number of} b_j }{ \text{ total number of rows in original table } }
 $$
 
 Basically, we have the total number of possible occurrences divided by the total number of rows. Suppose we have A and B exactly the same, and they all have the same values, a1.
